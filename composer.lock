@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44d66a4df0fe09c1205b05be052eee56",
-    "packages": [],
+    "content-hash": "d840c39ad469b2a0aacc0682fe37621a",
+    "packages": [
+        {
+            "name": "dackou/lang",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dackouer/dack-lang.git",
+                "reference": "e4d810d079f7fa30415a32a6a162a28a2cf05738"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dackouer/dack-lang/zipball/e4d810d079f7fa30415a32a6a162a28a2cf05738",
+                "reference": "e4d810d079f7fa30415a32a6a162a28a2cf05738",
+                "shasum": ""
+            },
+            "type": "l",
+            "autoload": {
+                "psr-4": {
+                    "Dack\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dackou"
+                }
+            ],
+            "description": "dackou php lang",
+            "support": {
+                "issues": "https://github.com/dackouer/dack-lang/issues",
+                "source": "https://github.com/dackouer/dack-lang/tree/v1.0"
+            },
+            "time": "2025-02-07T14:48:20+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",

@@ -1,11 +1,11 @@
 {
     "name": "dackou/json",
-    "description": "dackou php curl",
-    "type": "l",
+    "description": "dackou php json",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Dack\\": "src/"
+            "Dackou\\": "src/"
         }
     },
     "authors": [
@@ -15,5 +15,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "dackou/lang": "^1.0"
     }
 }

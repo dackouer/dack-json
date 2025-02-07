@@ -1,6 +1,8 @@
 <?php
 	namespace Dack;
 
+	use Dack\Lang;
+
 	class Json{
 		public static function show($code = 1,$msg = ''){
 			if(!empty($msg)){
