@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Dack\\Json\\' => array($baseDir . '/src'),
+    'Dack\\' => array($baseDir . '/src'),
 );

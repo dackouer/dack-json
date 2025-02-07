@@ -9,12 +9,12 @@ class ComposerStaticIniteb92f4187ef42a329aec7735ac895255
     public static $prefixLengthsPsr4 = array (
         'D' => 
         array (
-            'Dack\\Json\\' => 10,
+            'Dack\\' => 5,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Dack\\Json\\' => 
+        'Dack\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

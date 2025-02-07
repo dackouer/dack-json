@@ -1,6 +1,7 @@
 {
-    "name": "dack/json",
-    "description": "dackou php json",
+    "name": "dackou/json",
+    "description": "dackou php curl",
+    "type": "l",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -9,10 +10,10 @@
     },
     "authors": [
         {
-            "name": "dackou",
-            "email": "dackou@163.com"
+            "name": "dackou"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+    }
 }
