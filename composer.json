@@ -1,0 +1,18 @@
+{
+    "name": "dack/json",
+    "description": "dackou php json",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dack\\Json\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dackou",
+            "email": "dackou@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
