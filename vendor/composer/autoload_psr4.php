@@ -6,6 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Dackou\\' => array($baseDir . '/src'),
-    'Dack\\' => array($vendorDir . '/dackou/lang/src'),
+    'Dack\\' => array($baseDir . '/src', $vendorDir . '/dackou/lang/src'),
 );
