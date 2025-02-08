@@ -51,6 +51,7 @@
 			}
 		}
 
+		// json
 		private static function json($data, $options = JSON_UNESCAPED_UNICODE)
 		{
 		    return new Response(200, ['Content-Type' => 'application/json'], json_encode($data, $options));
