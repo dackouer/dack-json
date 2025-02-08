@@ -3,6 +3,7 @@
     "description": "dackou php json",
     "type": "library",
     "license": "MIT",
+    "version": "1.4",
     "autoload": {
         "psr-4": {
             "Dack\\": "src/"
